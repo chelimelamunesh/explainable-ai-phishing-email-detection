@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Full datasets - local only
+Phishing_Email.csv
+cleaned_phishing_email_dataset.csv
+
+# Private files
+.env
+.streamlit/secrets.toml
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
